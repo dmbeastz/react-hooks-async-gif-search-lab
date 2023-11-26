@@ -6,9 +6,9 @@ const GifListContainer = () => {
   const [gifs, setGifs] = useState([]);
   
   const fetchGifs = (query) => {
-   
   
-    const apiKey = 'dc6zaTOxFJmzC';
+  
+    const apiKey = 'fe2vnED4Iyb3qLkTAiEKrbuPFRzZuYtI';
     const apiUrl = `https://api.giphy.com/v1/gifs/search?q=${query}&api_key=${apiKey}&rating=g`;
     
     fetch(apiUrl)
